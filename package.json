@@ -1,0 +1,65 @@
+{
+  "devDependencies": {
+    "tape": "^2.13.4"
+  },
+  "name": "bloody-attempt",
+  "description": "smart try {} catch(){}",
+  "version": "0.0.0",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "tape": "^2.13.4"
+  },
+  "scripts": {
+    "test": "tape test/**.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:bloodyowl/attempt.git"
+  },
+  "author": "bloodyowl",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bloodyowl/attempt/issues"
+  },
+  "homepage": "https://github.com/bloodyowl/attempt",
+  "testling": {
+    "files": "test/*.js",
+    "browsers": {
+      "ie": [
+        8,
+        9
+      ],
+      "firefox": [
+        22,
+        23,
+        24,
+        25
+      ],
+      "chrome": [
+        28,
+        29,
+        30,
+        31
+      ],
+      "safari": [
+        4,
+        5.1,
+        6
+      ],
+      "opera": [
+        10,
+        11,
+        12
+      ],
+      "iphone": [
+        6
+      ],
+      "ipad": [
+        6
+      ]
+    }
+  }
+}
